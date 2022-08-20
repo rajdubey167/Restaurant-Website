@@ -1,0 +1,30 @@
+body{
+  background: url('bg.jpg');
+  background-size: cover;
+  backdrop-filter: blur(2px);
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+h1{
+  color: white;
+  font-size: 4rem;
+  margin-bottom: -50px;
+}
+.try{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+ul li{
+  color: white;
+  font-size: 2rem;
+}
+h4{
+  color: white;
+  font-size: 3rem;
+}
